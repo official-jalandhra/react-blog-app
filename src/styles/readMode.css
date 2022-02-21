@@ -1,0 +1,240 @@
+*{
+    padding: 0px;
+    margin: 0px;
+} 
+nav{
+    font-size: 30px;
+    height: 70px;
+    box-shadow: 0px 2px 4px lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.the-siren{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+.the{
+    font-size: 20px;
+    font-weight: normal;
+    display:inline-block;
+    transform: rotate(270deg);
+}
+.get-started{
+    border: 2px solid rgb(0, 220, 220);
+    color: rgb(0, 220, 220);
+    background-color: white;
+    padding: 5px 25px;
+    margin-right: 100px;
+}
+.read-mode-container{
+    width: 35vw;
+    margin: auto;
+    margin-top: 30px;
+}
+.read-mode-heading{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+}
+.profile-container{
+    display: flex;
+    margin-bottom: 20px;
+}
+.profile-container img{
+    border-radius: 50%;
+}
+.profile-name-and-date{
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.social-account{
+    margin-top: 25px;
+    margin-left: 140px;
+}
+
+.react-animation-img{
+    width: 35vw;
+    height: 250px;
+    overflow: hidden;
+    background-image: url(../photos/ReactAnimation.png);
+    background-size: cover;
+    
+}
+
+.para-description{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.para-talk-about{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 50px;
+}
+.react-code{
+    background-image: url(../photos/ReactCode.jpg);
+    width:30vw;
+    height: 450px;
+    background-size: cover;
+    margin: auto;
+    width: 30vw;
+    box-shadow: 2px 2px 30px black;
+    margin-bottom: 50px;
+}
+.tagName {
+    margin-bottom: 10px;
+}
+.tagName button{
+    border: none;
+    background-color: lightgray;
+    color: gray;
+    margin-right: 10px;
+    padding: 5px 10px;
+}
+.written-by{
+    color: lightgray;
+    font-size: 10px;
+    margin-top: -10px;
+}
+.clap-share-container{
+    position: fixed;
+    left: 150px;
+    top: 300px;
+    z-index: -1;
+}
+.clap-share{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 20px;
+   
+}
+.clap-share img{
+    margin-right: 25px;
+}
+.clap-share p{
+    color: lightgray;
+}
+.read-mode-footer{
+    background-color: rgb(247, 247, 247);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 30px;
+}
+.footer-heading{
+    font-size: 20px;
+    margin-left: 130px;
+}
+.footer-card{
+    margin-top: 30px;
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    margin: auto;
+}
+.footer-card-mobile-container{
+    display: none;
+}
+
+
+@media only screen and (max-width: 600px){
+
+    nav{
+        background-color: white;
+        height: 50px;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+    }
+    .the-siren{
+        margin-left: 30px;
+    }
+    .the{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .get-started{
+        margin-right: 30px;
+    }
+    .read-mode-container{
+        width: 80vw;
+        margin-top: 0px;
+        position: relative;
+        top: 80px;
+    }
+    .read-mode-heading{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .avatar{
+        margin-top: 40px;
+    }
+    .profile-name-and-date{
+        margin-top: 60px;
+        font-size: 20px;
+    }
+    .profile-container .social-account{
+        margin: 0px;
+        position: absolute;
+    }
+    .react-animation-img{
+        width: 80vw;
+        background-size: contain;
+
+    }
+    .react-code{
+        width: 75vw;
+    }
+    .tagName{
+        width: 80vw;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .clap-share-container{
+        display: none;
+    }
+    .written-by{
+        margin-top: -50px;
+    }
+    .footer-card{
+        flex-direction: column;
+        width: 80vw;
+    }
+    .read-mode-container hr{
+        display: none;
+    }
+    .border-top{
+        border-top: 2px solid lightgray;
+        padding-top: 20px;
+        margin-top: 80px;
+    }
+    .read-mode-footer{
+        position: relative;
+        top: 80px;
+        background-color: white;
+    }
+    .footer-heading{
+        margin-left: 40px;
+        font-size: 30px;
+    }
+    .read-mode-footer hr{
+        display: none;
+    }
+    .footer-card{
+        display: none;
+    }
+    .footer-card-mobile-container{
+        display: block;
+        width: 80vw;
+        margin: auto;
+        margin-top: 30px;
+    }
+}

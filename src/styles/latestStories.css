@@ -1,0 +1,42 @@
+.latestStories{
+    width: 80vw;
+    margin: auto;
+    margin-top: 50px;
+}
+.story-container{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.verticleHR{
+    border: 1px solid lightgray;
+}
+.view-more{
+    display: flex;
+    align-items: center;
+    color: lightgray;
+    width: 140px;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px){
+
+    .story-container{
+        flex-direction: column;
+        border-bottom: none;
+        padding-bottom: 0px;
+    }
+    .verticleHR{
+        display: none;
+    }
+    .view-more{
+        font-size: 12px;
+        margin-top: 0px;
+        margin-left: -10px;
+    }
+
+}

@@ -1,0 +1,16 @@
+.advertisment{
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24vw;
+    height: 100vh;
+    font-size: 30px;
+}
+@media only screen and (max-width: 600px) {
+
+ .advertisment{
+     display: none;
+ }   
+
+}

@@ -1,0 +1,102 @@
+.latestArticle-container{
+    width: 80vw;
+    margin: auto;
+    margin-top: 50px;
+}
+.outer-article-container{
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+}
+.article-container{
+    width: 53vw;
+}
+.arrow{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    color: lightgray;
+    width: fit-content;
+    font-size: 12px;
+}
+.arrow-img{
+    background-image: url(../photos/south_black_24dp.svg);
+    width: 23px;
+    height: 25px;
+    margin-right: 10px;
+}
+.side-container{
+    width: 24vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.article-gallary{
+    background-image: url(../photos/mountain1.webp);
+    width: 53vw;
+    height: 60vh;
+    background-size: cover;
+    border-radius: 5px;
+    margin-top: 155px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.article-gallary-title{
+    font-size: 30px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    display: flex;
+    width: inherit;
+    color: white;
+    justify-content: space-evenly;
+    
+}
+.article-gallary-date{
+    color: white;
+}
+.latestArticle-container .outer-article-container .article-container .arrow{
+    display: flex;
+}
+.latestArticle-container .outer-article-container .arrow{
+    display: none;
+}
+.latestArticle-container .outer-article-container .article-container div hr{
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+
+    
+    .outer-article-container{
+        flex-direction: column;
+    }
+    .article-container{
+        width: 80vw;
+    }
+    .latestArticle-container .outer-article-container .article-container{
+        height: 500px;
+    }
+    .article-container hr{
+        display: none;
+    }
+    .side-container{
+        height: fit-content;
+    }
+    .article-gallary{
+        display: none;
+    }
+    .arrow{
+        flex-direction: row-reverse;
+        margin-left: 0px;
+    }
+    .arrow-img{
+        transform: rotate(-90deg);
+        margin-left: 10px;
+    }
+    .latestArticle-container .outer-article-container .arrow{
+        display: flex;
+    }
+
+}

@@ -1,0 +1,19 @@
+.heading-container{
+    margin-bottom: 40px;
+}
+.heading{
+    font-weight: 500;
+}
+.headingUnderline{
+    border: 1px solid red;
+    width: 70px;
+    margin-top: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .heading{
+        font-size: 20px;
+    }
+
+}

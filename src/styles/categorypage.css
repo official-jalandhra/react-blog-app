@@ -1,0 +1,29 @@
+.content-container{
+    width: 80vw;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.article-container div hr{
+    display: none;
+}
+@media only screen and (max-width: 600px){
+    .content-container{
+        margin-top: 80px;
+    }
+        
+    .article-container{
+        height: 530px;
+        overflow: hidden;
+        margin-bottom: 20px; 
+    }
+    .article-container div hr{
+        display: block;
+        margin: 15px 0px;
+        opacity: 60%;
+    }
+    .content-container .article-container .arrow{
+        flex-direction: column-reverse;
+    }
+}

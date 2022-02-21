@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#left-gallary{
+    background-image: url(../photos/mountain3.webp);
+    background-size: cover;
+    width: 24vw;
+    height: 190px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.left-text{
+    color: white;
+    position: relative;
+    top: 85px;
+    left: 10px;
+}
+.left-gallary-title{
+    font-size: 20px;
+    color: white;
+}
+.left-gallary-date{
+    font-size: 12px;
+    color: gray;
+    margin-top: 15px;
+}
+.under{
+    margin-top: 5px;
+    width: 1.5vw;
+}
+

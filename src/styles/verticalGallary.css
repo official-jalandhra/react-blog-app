@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 80vw;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+  }
+#gallary{
+    background-image: url(../photos/mountain3.webp);
+    width: 55vw;
+    height: 60vh;
+    background-size: cover;
+    border-radius: 5px;
+    display: inline-block;
+}
+.gallary-title{
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: 10%;
+    top: 65%;
+}
+.gallary-date{
+    position: relative;
+    color: gray;
+    left: 10%;
+    top: 70%;
+  
+}
+.left-container{
+    border-radius: 5px;
+    width: 25vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-end;
+}
+.left-image{
+    width: 24vw;
+    height: 29vh;
+}
+
+@media only screen and (max-width: 600px){
+    
+    .container{
+        width: 100%;
+    }
+    #gallary{
+        width: 100%;
+    }
+    .gallary-title{
+        top: 60%;
+        font-size: 20px;
+    }
+    .gallary-date{
+        top: 80%;
+    }
+
+    .left-container{
+        display: none;
+    }
+}

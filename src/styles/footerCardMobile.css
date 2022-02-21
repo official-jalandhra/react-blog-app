@@ -1,0 +1,20 @@
+.footer-card-mobile{
+   margin: auto;
+   display: flex;
+}
+.footer-card-mobile-heading{
+    font-size: 20px;
+    width: 60vw;
+    margin-bottom: 15px;
+}
+.footer-card-mobile-heading div{
+    font-size: 15px;
+    color: lightgray;
+    margin-top: 10px;
+}
+.footer-card-mobile-img{
+    background-image: url(../photos/mountain2.jpg);
+    width: 85px;
+    height: 85px;
+    background-size: cover;
+}
