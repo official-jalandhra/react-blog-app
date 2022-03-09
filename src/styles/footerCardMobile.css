@@ -12,8 +12,24 @@
     color: lightgray;
     margin-top: 10px;
 }
-.footer-card-mobile-img{
-    background-image: url(../photos/mountain2.jpg);
+.footer-card-mobile-img1{ 
+    background-image: url(../photos/monkey.webp);
+    width: 85px;
+    height: 85px;
+    background-size: cover;
+}
+.footer-card-mobile-img2{ 
+    background-image: url(../photos/sunflower.webp);
+    width: 85px;
+    height: 85px;
+    background-size: cover;
+}.footer-card-mobile-img3{ 
+    background-image: url(../photos/tech3.webp);
+    width: 85px;
+    height: 85px;
+    background-size: cover;
+}.footer-card-mobile-img4{ 
+    background-image: url(../photos/car1.webp);
     width: 85px;
     height: 85px;
     background-size: cover;

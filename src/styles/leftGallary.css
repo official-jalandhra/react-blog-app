@@ -2,8 +2,16 @@
     margin: 0px;
     padding: 0px;
 }
-#left-gallary{
-    background-image: url(../photos/mountain3.webp);
+.left-gallary1{
+    background-image: url(../photos/sunflower.webp);
+    background-size: cover;
+    width: 24vw;
+    height: 190px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.left-gallary2{
+    background-image: url(../photos/butterfly.webp);
     background-size: cover;
     width: 24vw;
     height: 190px;

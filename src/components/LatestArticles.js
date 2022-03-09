@@ -9,6 +9,12 @@ import Advertisment from "./Advertisment";
 
 import westArrow from "../photos/west_black_24dp.svg";
 import eastArrow from "../photos/east_black_24dp.svg";
+
+import tech2 from "../photos/tech2.webp";
+import kabootar from "../photos/kabootar.webp";
+import car1 from "../photos/car1.webp";
+import tech1 from "../photos/tech1.webp";
+
 import Date from "./Date";
 
 export default class LatestArticles extends Component {
@@ -23,6 +29,7 @@ export default class LatestArticles extends Component {
               <hr style={{ width: "100%" }} />
               </div>
               <Article
+                image={tech2}
                 height="200"
                 articleHeading="article-heading1"
                 paragraph="article-paraBig"
@@ -31,18 +38,21 @@ export default class LatestArticles extends Component {
               <hr style={{ width: "100%" }} />
               </div>
               <Article
+                image={tech1}
                 height="140"
                 articleHeading="article-heading"
                 paragraph="article-paraBig-1"
               />
               <hr style={{ width: "100%" }} />
               <Article
+                image={kabootar}
                 height="140"
                 articleHeading="article-heading"
                 paragraph="article-paraBig-1"
               />
               <hr style={{ width: "100%" }} />
               <Article
+                image={car1}
                 height="140"
                 articleHeading="article-heading"
                 paragraph="article-paraBig-1"

@@ -6,7 +6,7 @@ export default class LeftGallary extends Component {
   render() {
     return (
       <div>
-        <div id="left-gallary">
+        <div className={this.props.image}>
           <div className="left-text">
             <div className="left-gallary-title">
               This sound Cloud <br></br> You loved is doomed.

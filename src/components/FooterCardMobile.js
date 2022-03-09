@@ -9,7 +9,7 @@ export default class FooterCardMobile extends Component {
                 Performance Comparison for 5 Javacript Object Iterations
                 <div>Jack Sparrow</div>
             </div>
-            <div className="footer-card-mobile-img"></div>
+            <div className={this.props.photo}></div>
       </div>
     );
   }

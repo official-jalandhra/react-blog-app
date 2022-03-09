@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "../styles/footercard.css";
-import Mountain from "../photos/mountain2.jpg";
 import Date from "./Date";
 import Avatar from "../photos/Avatar.png";
 
@@ -11,7 +10,7 @@ export default class FooterCard extends Component {
         <div className="desktop-footer-card">
           <div className="footer-card-heading">{this.props.heading}</div>
           <div className="footer-card-image">
-            <img src={Mountain} alt="mountain" width={300} />
+            <img src={this.props.photo} alt="mountain" width={300} />
             <p>
               Joshua Tree <br /> Overnight Adventure
             </p>

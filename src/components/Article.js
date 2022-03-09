@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import logo from "../photos/mountain1.webp";
 import "../styles/article.css";
 import Date from "./Date";
 
@@ -10,7 +9,7 @@ export default class Article extends Component {
       <>
         <div className="article">
           <img
-            src={logo}
+            src={this.props.image}
             alt="Article"
             width={200}
             height={this.props.height} 

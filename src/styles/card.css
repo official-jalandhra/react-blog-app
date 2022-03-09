@@ -9,11 +9,7 @@
     border-radius: 5px;
 
 }
-.card-image{
-    background-image: url(../photos/mountain2.jpg);
-    background-size:cover ;
-    width: inherit;
-    height: 200px;
+.card-image img{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }

@@ -19,10 +19,10 @@ export default class VerticalGallary extends Component {
         </div>
         <div className='left-container'>
             <div className='left-image'>
-                <LeftGallary/>
+                <LeftGallary image="left-gallary1"/>
             </div>
             <div className='left-image'>
-                <LeftGallary />
+                <LeftGallary image="left-gallary2"/>
             </div>
         </div>
       </div>

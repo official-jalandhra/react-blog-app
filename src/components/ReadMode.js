@@ -11,6 +11,34 @@ import Share from "../photos/Share.svg";
 import FooterCard from "./FooterCard";
 import FooterCardMobile from "./FooterCardMobile";
 
+import tech1 from '../photos/tech1.webp'
+import car1 from '../photos/car1.webp'
+import traffic from '../photos/traffic.webp'
+
+const footerList = [
+  {heading:"Also tagged ReactJS", photo: tech1},
+  {heading:"Also tagged ReactJS", photo: car1},
+  {heading:"Also tagged ReactJS", photo: traffic}
+]
+
+const footerCard = footerList.map((item)=>{
+  return(
+    <FooterCard heading={item.heading} photo={item.photo}/>
+  )
+})
+
+const footerMobileList=[
+  {photo:"footer-card-mobile-img1"},
+  {photo:"footer-card-mobile-img2"},
+  {photo:"footer-card-mobile-img3"},
+  {photo:"footer-card-mobile-img4"}
+]
+const footerCardMobile = footerMobileList.map((item)=>{
+  return(
+    <FooterCardMobile photo={item.photo}/>
+  )
+})
+
 export default class HeaderInReadMode extends Component {
   render() {
     return (
@@ -95,15 +123,10 @@ export default class HeaderInReadMode extends Component {
           </div>
           <hr style={{width: "80vw", margin:"20px auto"}}/>
           <div className="footer-card">
-            <FooterCard heading="Also tagged Reactjs"/>
-            <FooterCard heading="Related reads"/>
-            <FooterCard heading="Related reads"/>
+            {footerCard}
           </div>
           <div className="footer-card-mobile-container">
-            <FooterCardMobile/>
-            <FooterCardMobile/>
-            <FooterCardMobile/>
-            <FooterCardMobile/>
+            {footerCardMobile}
           </div>
         </div>
       </div>
